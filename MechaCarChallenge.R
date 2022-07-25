@@ -5,4 +5,9 @@ summary(mechacar_lm) # Use summary() function to determine the p-value and r-squ
 
 suspension_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F) #import and read suspension_coil.csv
 total_summary <- suspension_table %>% summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create total_summary dataframe to get mean, median, variance and stdev of PSI
-lot_summary <-suspension_table %>% group_by(Manufacturing_Lot)%>%  summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create total_summary dataframe and use groupby to get mean, median, variance and stdev of PSI
+lot_summary <-suspension_table %>% group_by(Manufacturing_Lot)%>%  summarize(Mean=mean(PSI),Median=(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create lot_summary dataframe and use groupby to get mean, median, variance and stdev of PSI
+
+t.test(suspension_table$PSI,mu=1500)
+lot1_test <- subset(suspension_table, Manufacturing_Lot=="Lot1")
+lot2_test <- subset(suspension_table, Manufacturing_Lot=="Lot2")
+lot3_test <- subset(suspension_table, Manufacturing_Lot=="Lot3")
