@@ -9,9 +9,9 @@ In this deliverable, I determine what impacts the prototype's car MPG by doing a
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? <br>
 The Vehicle Length and Ground Clearance provided a non-random amount of variance to the MPG values of the dataset. In other words, the length of the vehicle and the ground clearance of the vehicle impacts the prototype's miles per gallon performance. <br>
 2. Is the slope of the linear model considered to be zero? Why or why not? <br>
-The p-value of this linear regression analysis is 5.35 x 10-11, which is much smaller than the assumed significance level of 0.05%. This gives us sufficient evidence to reject the null, which ultimately means that the slope of this linear model is not zero. <br>
+The p-value of this linear regression analysis is 5.35 x 10-11 (highlighted in blue in image above), which is much smaller than the assumed significance level of 0.05%. This gives us sufficient evidence to reject the null, which ultimately means that the slope of this linear model is not zero. <br>
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? <br>
-The r-squared value is 0.7149, which means that 71% of Miles per Gallon predictions will be determined using this model. With that, I would say that this linear model predicts MPG of MechaCar prototypes effectively. <br>
+The r-squared value is 0.7149 (highlighted in yellow in image above), which means that 71% of Miles per Gallon predictions will be determined using this model. With that, I would say that this linear model predicts MPG of MechaCar prototypes effectively. <br>
 
 
 ## Summary Statistics on Suspension Coils
