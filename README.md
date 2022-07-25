@@ -6,12 +6,12 @@ In this deliverable, I determine what impacts the prototype's car MPG by doing a
 ![MechaCar Linear Regression](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/summar(mechacar_lm).png)
 
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? <br>
-* The Vehicle Length and Ground Clearance provided a non-random amount of variance to the MPG values of the dataset. In other words, the length of the vehicle and the ground clearance of the vehicle impacts the prototype's miles per gallon performance. <br>
-Is the slope of the linear model considered to be zero? Why or why not? <br>
-* The p-value of this linear regression analysis is 5.35 x 10-11, which is much smaller than the assumed significance level of 0.05%. This gives us sufficient evidence to reject the null, which ultimately means that the slope of this linear model is not zero. <br>
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? <br>
-* The r-squared value is 0.7149, which means that 71% of Miles per Gallon predictions will be determined using this model. With that, I would say that this linear model predicts MPG of MechaCar prototypes effectively. <br>
+1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? <br>
+The Vehicle Length and Ground Clearance provided a non-random amount of variance to the MPG values of the dataset. In other words, the length of the vehicle and the ground clearance of the vehicle impacts the prototype's miles per gallon performance. <br>
+2. Is the slope of the linear model considered to be zero? Why or why not? <br>
+The p-value of this linear regression analysis is 5.35 x 10-11, which is much smaller than the assumed significance level of 0.05%. This gives us sufficient evidence to reject the null, which ultimately means that the slope of this linear model is not zero. <br>
+3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? <br>
+The r-squared value is 0.7149, which means that 71% of Miles per Gallon predictions will be determined using this model. With that, I would say that this linear model predicts MPG of MechaCar prototypes effectively. <br>
 
 
 ## Summary Statistics on Suspension Coils
@@ -49,9 +49,18 @@ Finally, following the same trend as above, Lot 3 performed differently from the
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
+1. Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating <br>
+This statistical study compares MechaCar and it's competition based on value. In our society, consumers are now thinking of the value of the things they own, and so in this study we will be comparing MecharCar's value to it's competition. To do so, we will compare cost, fuel efficiency and maintenance cost. <br>
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+2. What metric or metrics are you going to test?<br>
+Average closing cost (average $$ consumer pays for the car), MPG and average maintenance cost per year<br>
+
+3. What is the null hypothesis or alternative hypothesis?<br>
+Null Hypothesis: MechaCar has more value than it's competitor based on the KPIs comparing the two.<br>
+Alternative Hypothesis (Ha): MechaCar is not valuable compared to it's competition.<br>
+
+4. What statistical test would you use to test the hypothesis? And why? <br>
+I would use the two-sample t-test because it compares two samples against each other. <br>
+
+5. What data is needed to run the statistical test<br>
+Datasets that represent the two groups will be needed (one for MechaCar and one for the competition). Ideally, the datasets will have model, make and year, as well as the metrics needed to run the test (average closing cost, MPG and average maintenance cost per year).
