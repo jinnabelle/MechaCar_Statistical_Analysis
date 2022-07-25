@@ -1,10 +1,5 @@
 # MechaCar_Statistical_Analysis
 
-
-
-### Overview
-
-
 ## Linear Regression to Predict MPG
 In this deliverable, I determine what impacts the prototype's car MPG by doing a linear regression analysis, as well as determine how effective is the linear model with predicting the MPG of the prototype cars.
 
@@ -37,8 +32,19 @@ In total, the current manufacturing data meets the design sepcification. As a wh
 
 ## T-Tests on Suspension Coils
 
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+Summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.<br>
 
+![T-test All](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/test_suspension_table.png)<br>
+When looking at across all of the lots, the mean is 1498.78 and the p-value returns as 0.06, which is higher than our assumed significance level of 0.05. This means that there is not enough evidence to support rejecting the null. <br>
+
+By individual lots -- <br>
+
+Lot 1 has a mean of 1500 and p-value of 1, which ultimately means we cannot reject the null hypothesis, which means that the population mean and sample mean are statistically similar.<br>
+Lot 2 with 1500.2 mean and a p-Value of 0.61, which again means that we cannot reject the null and that the population mean and sample mean are statistically similar. <br>
+Finally, following the same trend as above, Lot 3 performed differently from the rest of the lot with a mean of 1496.14 and p-Value of 0.04. This p-value is lower than our assumed significance level of 0.04 which means to reject the null hypothesis, meaning that the sample mean and population means at not statistically similar.<br>
+
+![T-Test Lot 1 and Lot 2](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/lot1%20and%20lot2.png)<br>
+![T-Test Lot 3](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/lot3.png)
 
 
 ## Study Design: MechaCar vs Competition
