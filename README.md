@@ -3,7 +3,7 @@
 ## Linear Regression to Predict MPG
 In this deliverable, I determine what impacts the prototype's car MPG by doing a linear regression analysis, as well as determine how effective is the linear model with predicting the MPG of the prototype cars.
 
-![MechaCar Linear Regression](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/summar(mechacar_lm).png)
+![MechaCar Linear Regression](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/summar(mechacar_lm).png)<br>
 
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? <br>
@@ -21,12 +21,12 @@ In this deliverable, I took a look at the Suspension_Coil dataset, which contain
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?<br>
 Below you will find the summaries of the suspension coil's PSI across all the lots (image 1) and by each lot (image 2). 
 
-Image 1
+Image 1<br>
 ![Total Summary](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/total_summary.png)
 
-Image 2
+Image 2<br>
 ![Summary by Lot](https://github.com/jinnabelle/MechaCar_Statistical_Analysis/blob/main/lot_summary.png)
-
+<br>
 In total, the current manufacturing data meets the design sepcification. As a whole, the PSI varies by 62 which is within the 100 pounds per square inch limit. However, by lot, you will have seen that Lot 3 shows a variance that exceeds the limit at 170, 70 pounds higher than the limit. Further investigation for Lot 3 is highly recommended to see where the variance is coming from and how it's coming to be. 
 
 
@@ -56,8 +56,7 @@ This statistical study compares MechaCar and it's competition based on value. In
 Average closing cost (average $$ consumer pays for the car), MPG and average maintenance cost per year<br>
 
 3. What is the null hypothesis or alternative hypothesis?<br>
-Null Hypothesis: MechaCar has more value than it's competitor based on the KPIs comparing the two.<br>
-Alternative Hypothesis (Ha): MechaCar is not valuable compared to it's competition.<br>
+The Null Hypothesis is that MechaCar has more value than it's competitor based on the KPIs comparing the two. And the Alternative Hypothesis is that MechaCar is not valuable compared to it's competition.<br>
 
 4. What statistical test would you use to test the hypothesis? And why? <br>
 I would use the two-sample t-test because it compares two samples against each other. <br>
